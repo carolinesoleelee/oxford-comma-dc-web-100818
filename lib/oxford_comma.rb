@@ -3,7 +3,7 @@ def oxford_comma(array)
    return array.join
  elsif array.length == 2
   return array.push("and")
-  array << array.length-1
+  array << durian
 else array.length > 2
   new = []
   array.each do |this|
