@@ -8,6 +8,6 @@ else array.length > 2
   array.each do |x|
    new << x
  end
- new
+ new.length-1.push("and")
 end
 end
