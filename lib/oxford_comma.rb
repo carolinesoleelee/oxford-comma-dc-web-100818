@@ -7,6 +7,8 @@ else array.length > 2
   new = []
   array.each do |x|
    this = if x.length-1
+     x.insert("and")
+     return this
    new << this
 end
  end
