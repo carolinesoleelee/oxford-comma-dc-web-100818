@@ -9,6 +9,3 @@ else array.length > 2
    new << x
  end
 end
-return new
-end
-end
