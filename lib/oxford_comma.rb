@@ -6,7 +6,7 @@ def oxford_comma(array)
 else array.length > 2
   new = []
   array.each do |x|
-   this = x- 1
+   this = x
    new << this
 
  end
