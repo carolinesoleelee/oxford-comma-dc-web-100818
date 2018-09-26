@@ -9,5 +9,6 @@ else array.length > 2
    new << x
  end
  new.insert(2,"and").join(", ")
+ if 
 end
 end
