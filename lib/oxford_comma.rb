@@ -11,5 +11,4 @@ else array.length > 2
    end
    new.join(", ")
  end
-  end
 end
