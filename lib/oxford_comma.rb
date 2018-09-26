@@ -8,5 +8,4 @@ else array.length > 2
   array.length-1
   .push("and")
  end
- return array
 end
