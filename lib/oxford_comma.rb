@@ -4,10 +4,7 @@ def oxford_comma(array)
  elsif array.length == 2
   return  array.insert(1, "and").join(" ")
 else array.length > 2
-  new = []
-  array.each do |x|
-   new << x
- end
-  new
+  
+
 end
 end
