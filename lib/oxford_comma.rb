@@ -9,6 +9,6 @@ else array.length > 2
   array.each do |this|
   new << this
    end
-   new
+   new.join(" ")
  end
   end
