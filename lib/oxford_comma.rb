@@ -8,7 +8,7 @@ else array.length > 2
   array.each do |x|
    this = if x.length-1
    new << this
-
+end
  end
  new
 end
