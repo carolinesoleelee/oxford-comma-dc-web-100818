@@ -8,6 +8,6 @@ else array.length > 2
   array.each do |x|
    new << x
  end
- new.insert(3,"and")
+ new.insert(length-3,"and")
 end
 end
