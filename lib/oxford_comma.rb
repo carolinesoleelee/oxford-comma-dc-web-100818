@@ -9,5 +9,6 @@ else array.length > 2
   array.each do |x|
   new << x
 end
+new
 end
 end
