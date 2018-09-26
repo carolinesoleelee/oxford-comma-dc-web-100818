@@ -11,4 +11,3 @@ else array.length > 2
  new.length-1
 end
 end
-end
