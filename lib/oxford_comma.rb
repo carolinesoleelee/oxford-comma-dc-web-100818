@@ -7,7 +7,6 @@ else array.length > 2
   new = []
   array.each do |x|
    this = x- 1
-   this.push("and")
    new << this
 
  end
