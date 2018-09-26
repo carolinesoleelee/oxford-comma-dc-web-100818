@@ -7,8 +7,7 @@ else array.length > 2
   new = []
   array.each do |this|
   new << this
-  if array.length-1
-    return "and"
+
    end
    new.join(", ")
  end
