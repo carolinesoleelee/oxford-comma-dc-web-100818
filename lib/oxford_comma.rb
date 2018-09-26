@@ -10,4 +10,3 @@ else array.length > 2
  end
  return array
 end
-end
