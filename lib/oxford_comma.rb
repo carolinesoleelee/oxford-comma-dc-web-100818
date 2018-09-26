@@ -8,9 +8,6 @@ else array.length > 2
   array.each do |x|
    new << x
  end
- new.insert(2,"and").join(", ")
- if new != length-1
-   new.push("and")
 end
 return new
 end
