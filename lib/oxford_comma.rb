@@ -8,10 +8,7 @@ else array.length > 2
   array.each do |x|
    new << x
  end
- new
- if new.length == 3
-   new.push("and")
+ new.length-1
 end
- return new   
 end
 end
